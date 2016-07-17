@@ -5,7 +5,9 @@ nav {
 	justify-content: space-around;
 }
 
-
+.nav-content {
+	color: red
+}
 .navbar { opacity :0.8;
 	color: white;
 }
@@ -24,3 +26,4 @@ nav {
 	background-color: #b62f26;
 	border-color: #b62f26;
 }
+
