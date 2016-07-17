@@ -1,40 +1,28 @@
 h1 {
-	padding-top: 100px;
+	padding-top: 50px;
 }
+
+nav {
+	display: inline-block;
+	justify-content: space-around;
+}
+
+
 .navbar { opacity :0.8;
 	color: white;
-	display: inline-block;;
 }
 
-#social-buttons {
-	float: left;
-	margin: 0 0.15em;
-}
-
-#social-buttons button {
-	color: white;
-	margin-bottom: 30px;
-
-}
 .btn-twitter {
-
 	background-color: #00acee;
-
 	border-color: #009ad5;
-
 }
 
 .btn-facebook {
-
 	background-color: #4868ac;
-
 	border-color: #314776;
 }
 
 .btn-pinterest {
-
 	background-color: #b62f26;
-
 	border-color: #b62f26;
-
 }
