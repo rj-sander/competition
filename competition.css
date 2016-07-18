@@ -23,32 +23,38 @@ h1 {font-family: 'Megrim', cursive;
 				z-index: -1;
 				margin-top: 10px;
 				margin-bottom: 20px;
-				}
+}
 
 nav {
 	display: inline-block;
-	justify-content: space-around;
+	width: 100%;
 }
 
-.nav-content {
-	color: red
-}
 .navbar { opacity :0.8;
 	color: white;
+	width: 100%;
 }
 
 .btn-twitter {
+	color: white;
 	background-color: #00acee;
 	border-color: #009ad5;
+	border-radius: 6px;
 }
 
 .btn-facebook {
+	color: white;
 	background-color: #4868ac;
 	border-color: #314776;
+	border-radius: 6px;
 }
 
 .btn-pinterest {
+	color: white;
 	background-color: #b62f26;
 	border-color: #b62f26;
+	border-radius: 6px;
 }
+
+
 
