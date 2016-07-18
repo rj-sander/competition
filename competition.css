@@ -1,4 +1,29 @@
 
+#theIntro {
+    background: cover;
+	width: 100%;
+	height: 100%;
+	background-color: #FFF6F7;
+	opacity: 1;
+	margin-top: 0;
+	}
+
+h1 {font-family: 'Megrim', cursive;
+	}
+
+#gif1r {display:block;
+			margin-left: auto;
+			margin-right: auto;
+			z-index: -1;
+			}
+
+#enterbutton	{display: block;
+				margin-left: auto;
+				margin-right: auto;
+				z-index: -1;
+				margin-top: 10px;
+				margin-bottom: 20px;
+				}
 
 nav {
 	display: inline-block;
