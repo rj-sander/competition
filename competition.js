@@ -1,6 +1,12 @@
+$(document).ready(function () {
+	$("#theMain").hide()
+});
 
 $(document).ready(function () {
-	$("#enterbutton").on("click", function () {
-	$("#theIntro").fadeOut("slow");})
+	
+	$("#enterbutton").click(function () {
+		$("#theIntro").fadeOut("slow");
+		$("#theMain").show();
+	});
 });
 
