@@ -68,3 +68,6 @@ nav {
 .img-responsive {
 	max-height: 750px;
 }
+
+#video {display: block;
+		margin: 0 auto;}
