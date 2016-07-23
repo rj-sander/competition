@@ -9,7 +9,7 @@
 	}
 
 h1 {font-family: 'Megrim', cursive;
-	}
+	font-weight: bold;}
 
 #gif1r {display:block;
 			margin-left: auto;
@@ -71,3 +71,33 @@ nav {
 
 #video {display: block;
 		margin: 0 auto;}
+
+
+#about-section {height: 100vh;
+				width: 100%;
+				background-color: #d1d1e0;
+				color: white;
+				display: inline-block;
+				position: relative;}
+
+#about-header {height: 100%;
+				text-align: center;
+				display: inline-block;
+				float: left;
+				border-top: 30px;
+				padding: 10px;
+				margin: 50px 10px 10px 80px;
+				}
+				
+.About {color: black;
+		display: inline-block;
+		float: right;
+		width: 600px;
+		padding: 20px;
+		margin: 50px 30px 10px 10px;
+		border: 5px;
+		box-sizing: none !important;
+		}
+
+#title-start {margin-left: 30px;}
+
