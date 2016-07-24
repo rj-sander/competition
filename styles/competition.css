@@ -52,34 +52,25 @@ nav {
 }
 
 
-.btn-twitter {
-	color: white;
-	background-color: #00acee;
-	border-color: #009ad5;
-	border-radius: 6px;
+.btn-default {
+	border: none;
 }
 
-.btn-facebook {
-	color: white;
-	background-color: #4868ac;
-	border-color: #314776;
-	border-radius: 6px;
+#twitter {
+	background-image: url(/images/twitter.png);
+	max-height: 30px;
 }
 
-.btn-pinterest {
-	color: white;
-	background-color: #b62f26;
-	border-color: #b62f26;
-	border-radius: 6px;
+#instagram {
+	background-image: url(/images/instagram.png); 
+	max-height: 30px;
 }
-
 
 #video {
 	display: block;
 	margin: 0 auto;
 }
 
-<<<<<<< HEAD
 
 #title-start {
 	margin-left: 30px;
@@ -152,7 +143,7 @@ nav {
 #contact-section {background-color: #f2e6ff;}
 
 #contact-header {background-color: #d9b3ff;}
->>>>>>> origin/master
+
 
 .thumbnail {
 	max-width: 400px;
@@ -167,4 +158,9 @@ footer {
 
 .container {
 	width: 100%
+}
+
+.button-pictures {
+	max-height: 30px;
+	background-color: none;
 }
