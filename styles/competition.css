@@ -54,16 +54,19 @@ nav {
 
 .btn-default {
 	border: none;
+	background-repeat: no-repeat;
+    background-position: center center;
+    width: 30px;
+	height: 30px;
+
 }
 
 #twitter {
-	background-image: url(/images/twitter.png);
-	max-height: 30px;
+	background-image: url("../images/twitter.png");
 }
 
 #instagram {
-	background-image: url(/images/instagram.png); 
-	max-height: 30px;
+	background-image: url("../images/instagram.png");
 }
 
 #video {
