@@ -95,7 +95,6 @@ nav {
 	margin: auto;
 	height: 90vh;
 	z-index: -1;
-	padding-top: 60px;
 }
 .carousel-indicators li {
 	background-color: #b3b3cc;
@@ -176,7 +175,8 @@ nav {
 
 
 .thumbnail {
-	border: none;
+	max-width: 400px;
+	height: 300px;
 }
 
 footer {
@@ -189,23 +189,9 @@ footer {
 	width: 100%
 }
 
-
-#art {
-	padding-top: 65px;
-}
-
-#anim {
-	padding-top: 65px;
-}
-
-#pub {
-	padding-top: 65px;
-}
-
  @media screen and (max-width:480px) {
        .thumbnail { display: none;}
         }
-
 
 
 
