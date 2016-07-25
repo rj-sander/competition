@@ -22,7 +22,7 @@
 	margin-right: auto;
 	z-index: -1;
 	padding-left: 30px;
-	padding-top: 70px;
+	padding-top: 35px;
 	}
 
 #intro-content	{
@@ -86,9 +86,6 @@ nav {
 	height: 150px;
 }
 
-.carousel {
-	padding-top: 70px;
-}
 
 .carousel-inner > .item > img, 
 .carousel-inner > .item > a > img{
@@ -107,8 +104,9 @@ nav {
 	display: inline-block;
 	margin-top: -5px;}
 
-.carosel {
+.carousel {
 	margin-bottom: 5px;
+	padding-top: 60px;
 }
 
 .header {
@@ -174,24 +172,22 @@ nav {
 }
 
 
-.thumbnail {
-	max-width: 400px;
-	height: 300px;
-}
 
 footer {
 	text-align: right;
 	background-color: #e1e1ea;
 	padding: 5px;
-}
-
-.container {
-	width: 100%
+margin-top: 0px;
+margin-bottom: 0px;
 }
 
  @media screen and (max-width:480px) {
        .thumbnail { display: none;}
+       .selfie { display: none; }
         }
+
+
+
 
 
 
