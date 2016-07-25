@@ -105,7 +105,8 @@ nav {
 	width: 100%;
 	color: white;
 	display: inline-block;
-	margin-top: -5px;}
+	margin-top: -5px;
+	z-index: -1;}
 
 .carosel {
 	margin-bottom: 5px;
@@ -136,7 +137,7 @@ nav {
 	float: right;
 	width: 50%;
 	padding: 50px;
-	margin: 50px 0px 10px 0px;
+	margin: 0px 0px 0px 0px;
 	box-sizing: none !important;
 }			
 
@@ -150,6 +151,7 @@ nav {
 
 #work-header {
 	background-color: #9999ff;
+	z-index: 0;
 }
 						
 #work-list ul {
@@ -160,8 +162,9 @@ nav {
 }
 
 #work_content {
-	max-height: 90%;
-	overflow: scroll;
+	overflow: auto;
+	max-height: none;
+	z-index: 1;
 }
 
 
@@ -173,11 +176,6 @@ nav {
 	background-color: #d9b3ff;
 }
 
-
-.thumbnail {
-	max-width: 400px;
-	height: 300px;
-}
 
 footer {
 	text-align: right;
@@ -194,4 +192,10 @@ footer {
         }
 
 
+#work-header.stick {
+    margin-top: 0 !important;
+    position: fixed;
+    max-height:100vh;
+    top: 0;
+       }
 
