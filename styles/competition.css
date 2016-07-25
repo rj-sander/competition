@@ -22,6 +22,7 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	z-index: -1;
+	padding-left: 30px;
 	}
 
 #intro-content	{
@@ -36,8 +37,6 @@ body {
 #enterbutton {
 	margin-top: 30px;
 	padding-left: 10px;
-	background: url('../images/RJS_LOGO_PINK.png');
-	height: 75px;
 }
 
 nav {
@@ -81,6 +80,10 @@ nav {
 
 #title-start {
 	margin-left: 30px;
+}
+
+#logo {
+	height: 150px;
 }
 
 .carousel-inner > .item > img, 
@@ -180,9 +183,4 @@ footer {
 
 .container {
 	width: 100%
-}
-
-.button-pictures {
-	max-height: 30px;
-	background-color: none;
 }
