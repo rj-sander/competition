@@ -36,6 +36,8 @@ body {
 #enterbutton {
 	margin-top: 30px;
 	padding-left: 10px;
+	background: url('../images/RJS_LOGO_PINK.png');
+	height: 75px;
 }
 
 nav {
