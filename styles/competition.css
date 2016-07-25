@@ -175,8 +175,7 @@ nav {
 
 
 .thumbnail {
-	max-width: 400px;
-	height: 300px;
+	border: none;
 }
 
 footer {
@@ -189,9 +188,13 @@ footer {
 	width: 100%
 }
 
- @media screen and (max-width:480px) {
+@media screen and (max-width:480px) {
        .thumbnail { display: none;}
         }
+
+.cat {
+	padding-top: 65px;
+}
 
 
 
