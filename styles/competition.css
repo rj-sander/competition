@@ -22,7 +22,7 @@
 	margin-right: auto;
 	z-index: -1;
 	padding-left: 30px;
-	padding-top: 35px;
+	padding-top: 70px;
 	}
 
 #intro-content	{
@@ -86,12 +86,16 @@ nav {
 	height: 150px;
 }
 
+.carousel {
+	padding-top: 70px;
+}
 
 .carousel-inner > .item > img, 
 .carousel-inner > .item > a > img{
 	margin: auto;
 	height: 90vh;
 	z-index: -1;
+	padding-top: 60px;
 }
 .carousel-indicators li {
 	background-color: #b3b3cc;
@@ -104,9 +108,8 @@ nav {
 	display: inline-block;
 	margin-top: -5px;}
 
-.carousel {
+.carosel {
 	margin-bottom: 5px;
-	padding-top: 60px;
 }
 
 .header {
@@ -128,6 +131,7 @@ nav {
 	background-color: #b3b3cc;
 }
 
+
 .content {
 	color: black;
 	display: inline-block;
@@ -136,7 +140,12 @@ nav {
 	padding: 50px;
 	margin: 50px 0px 10px 0px;
 	box-sizing: none !important;
-}			
+}	
+
+#about-content{
+	overflow: scroll;
+	max-height: 88%
+}		
 
 #title-start {
 	margin-left: 30px;
@@ -172,19 +181,35 @@ nav {
 }
 
 
+<<<<<<< Updated upstream
+.thumbnail {
+	border: none;
+}
 
+=======
+>>>>>>> Stashed changes
 footer {
 	text-align: right;
 	background-color: #e1e1ea;
 	padding: 5px;
-margin-top: 0px;
-margin-bottom: 0px;
 }
 
- @media screen and (max-width:480px) {
-       .thumbnail { display: none;}
-       .selfie { display: none; }
-        }
+.container {
+	width: 100%
+}
+
+
+#art {
+	padding-top: 65px;
+}
+
+#anim {
+	padding-top: 65px;
+}
+
+#pub {
+	padding-top: 65px;
+}
 
 
 
