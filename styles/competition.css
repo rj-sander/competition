@@ -177,6 +177,13 @@ nav {
 }
 
 
+<<<<<<< HEAD
+=======
+.thumbnail {
+	border: none;
+}
+
+>>>>>>> origin/master
 footer {
 	text-align: right;
 	background-color: #e1e1ea;
@@ -187,9 +194,13 @@ footer {
 	width: 100%
 }
 
- @media screen and (max-width:480px) {
+@media screen and (max-width:480px) {
        .thumbnail { display: none;}
         }
+
+.cat {
+	padding-top: 65px;
+}
 
 
 #work-header.stick {
