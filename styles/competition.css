@@ -167,10 +167,12 @@ nav {
 	margin-left: 50px;
 }
 
+
 #work_content {
 	overflow: auto;
 	max-height: none;
 	z-index: 1;
+	background-color: #c1cbff;
 }
 
 .thumbnail {
