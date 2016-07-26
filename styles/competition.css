@@ -16,7 +16,6 @@
 	margin-right: auto;
 	z-index: -1;
 	padding-left: 30px;
-	padding-top: 70px;
 	}
 
 #intro-content	{
@@ -113,7 +112,7 @@ nav {
 	display: inline-block;
 	float: left;
 	width: 50%;
-	font-size: 5vh;
+	font-size: 8vh;
 	font-family: 'Megrim', cursive;
 	font-weight: bold;		
 }
@@ -133,7 +132,12 @@ nav {
 	margin-left: 25%;
 	padding-right: 10px;
 	margin-top: 25%;
-	font-size: 5vh;
+	font-size: 8vh;
+}
+
+p {
+	font-family: "Roboto";
+	color: white;
 }
 
 /*about section*/
@@ -240,9 +244,16 @@ footer {
        #work-list {display: none;}
        #video {display:none;}
        #videolink {display: inline;}
-       #img-about {display: none;} }
+       #img-about {display: none;}
+       .content {padding: 20px;}
+       .cat {padding-top: 20px;}
+       .content {font-size: 12px;} 
+   		.title-placement {font-size: 5vh;}
+   		.header {font-size: 5vh;} }
 
-p {
-	font-family: "Roboto";
-	color: white;
+@media screen and (min-width: 0px) and (max-width: 600px) {
+	#contact-header {display: none;}
+	.content {font-size: 11px;}
+	#contact-form {float: left; 
+					width: 100vh;}
 }
