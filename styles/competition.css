@@ -139,7 +139,7 @@ nav {
 /*about section*/
 
 #about-section {
-	background-color: #e1e1ea;
+	background-color: #d1ceea;
 	
 }
 
@@ -242,3 +242,7 @@ footer {
        #videolink {display: inline;}
        #img-about {display: none;} }
 
+p {
+	font-family: "Roboto";
+	color: white;
+}
