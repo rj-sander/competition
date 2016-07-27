@@ -232,6 +232,13 @@ footer {
 	text-align: right;
 	background-color: #e1e1ea;
 	padding: 5px;
+	color: white;
+	font-family: 'Roboto';
+}
+
+h4 {
+	font-family: 'Roboto';
+	color: white;
 }
 
 /*Media Queries*/
