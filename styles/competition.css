@@ -90,7 +90,7 @@ nav {
 .carousel-inner > .item > img, 
 .carousel-inner > .item > a > img{
 	margin: auto;
-	height: 90vh;
+	max-height: 90vh;
 	z-index: -1;
 }
 .carousel-indicators li {
